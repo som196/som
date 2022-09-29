@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pacific Trails Resort</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Pacific Trails Resort offers you glamping in spacious and well-appointed private Yurts. All luxury campsites have an ocean view. Enjoy the zen and natural beauty of Big Sur at Pacific Trails Resort."
+    />
+    <link rel="stylesheet" href="stylesheets/pacific.css" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pacific Trails Resort</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="yurts.html">Yurts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="activities.html">Activities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservations.html">Reservations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="demo"
+      class="carousel slide container mt-1"
+      data-bs-ride="carousel"
+    >
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/coast.jpg"
+            alt="Los Angeles"
+            class="d-block"
+            style="width: 100%"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/trail.jpg"
+            alt="Chicago"
+            class="d-block"
+            style="width: 100%"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/yurt.jpg"
+            alt="New York"
+            class="d-block"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <main class="container mt-5">
+      <h1>Enjoy Nature in Luxury</h1>
+      <div class="row">
+        <div class="col">
+          <p>
+            Pacific Trails Resort offers a special lodging experience on the
+            California North Coast with panoramic views of the Pacific Ocean.
+            Your stay at Pacific Trails Resort includes a sumptuously appointed
+            private yurt and a cooked-to-order breakfast each morning.
+          </p>
+          <ul>
+            <li>Unwind in the heated outdoor pool and whirlpool</li>
+            <li>Explore the coast on your own or join our guided tours</li>
+            <li>
+              Relax in our lodge while enjoying complimentary appetizers and
+              beverages
+            </li>
+            <li>Savor nightly fine dining with an ocean view</li>
+          </ul>
+          <div>
+            Pacific Trails Resort<br />
+            12456 Pacific Trails Road<br />
+            Zephyr, CA 95555<br />
+            <a href="tel:888-555-5555">888-555-5555</a><br /><br />
+          </div>
+        </div>
+        <div class="col">
+          <video controls="controls" width="320" height="240">
+            <source src="videos/pacific.m4v" type="video/mp4" />
+            <source src="videos/pacific.ogv" type="video/ogg" />
+            <embed
+              type="application/x-shockwave-flash"
+              src="videos/pacific.swf"
+              width="320"
+              height="240"
+              title="Pacific Trail Resort"
+            />
+          </video>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        Copyright &copy; 2018 Pacific Trails Resort<br />
+        <a href="mailto:nagatejasrilella@nagatejasrilella.com"
+          >nagatejasrilella@nagatejasrilella.com</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
