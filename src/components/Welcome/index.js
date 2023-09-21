@@ -24,7 +24,7 @@ class Welcome extends Component {
     const buttonContent = this.buttonContent1()
 
     return (
-      <div className="container1">
+      <div className="container">
         <div className="container2">
           <h1>Welcome</h1>
           <p>Happy Learning!</p>
