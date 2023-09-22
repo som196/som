@@ -14,7 +14,7 @@ class Welcome extends Component {
     }
   }
 
-  buttonContent1 = () => {
+  buttonContent3 = () => {
     const {isSubscribed} = this.state
     const buttonContent = isSubscribed ? 'subscribed' : 'subscribe'
     return buttonContent
